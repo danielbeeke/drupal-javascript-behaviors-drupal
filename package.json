@@ -1,0 +1,25 @@
+{
+  "name": "drupal-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.40"
+  },
+  "jspm": {
+    "name": "dj",
+    "main": "jspm/dj.js",
+    "directories": {
+      "baseURL": "web",
+      "packages": "web/jspm/packages"
+    },
+    "configFiles": {
+      "jspm": "web/jspm/jspm.config.js",
+      "jspm:dev": "web/jspm.dev.js",
+      "jspm:browser": "web/jspm.browser.js",
+      "jspm:node": "web/jspm.node.js"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21"
+    }
+  }
+}

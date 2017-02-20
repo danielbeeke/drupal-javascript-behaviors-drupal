@@ -1,0 +1,14 @@
+uuid: 317a9b0a-3a4c-4557-8976-64090b2c14e8
+name: 'Drupal Javascript'
+mail: daniel.beeke@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,0 +1,9 @@
+javascript:
+  version: VERSION
+  js:
+    /jspm/packages/system.js: {}
+    /jspm/jspm.config.js: {}
+    js/dj_demo.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

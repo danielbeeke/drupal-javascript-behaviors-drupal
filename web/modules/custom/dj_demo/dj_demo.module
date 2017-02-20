@@ -1,0 +1,5 @@
+<?php
+
+function dj_demo_preprocess_page(&$variables) {
+  $variables['#attached']['library'][] = 'dj_demo/javascript';
+}
