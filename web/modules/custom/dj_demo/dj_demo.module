@@ -2,4 +2,5 @@
 
 function dj_demo_preprocess_page(&$variables) {
   $variables['#attached']['library'][] = 'dj_demo/javascript';
+  $variables['#attached']['library'][] = 'dj_demo/ajax';
 }

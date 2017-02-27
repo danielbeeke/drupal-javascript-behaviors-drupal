@@ -30,6 +30,9 @@ SystemJS.config({
     "npm:@*/*.json",
     "npm:*.json"
   ],
-  map: {},
+  map: {
+    "jquery": "npm:jquery@3.1.1",
+    "underscore": "npm:underscore@1.8.3"
+  },
   packages: {}
 });

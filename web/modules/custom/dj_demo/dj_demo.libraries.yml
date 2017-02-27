@@ -1,9 +1,18 @@
 javascript:
   version: VERSION
   js:
-    /jspm/packages/system.js: {}
-    /jspm/jspm.config.js: {}
-    js/dj_demo.js: {}
+    /jspm/packages/system.js: { weight: -20 }
+    /jspm/jspm.config.js: { weight: -20 }
+    js/start-es6.js: { weight: -20 }
   dependencies:
-    - core/jquery
     - core/drupal
+    - core/drupalSettings
+
+ajax:
+  version: VERSION
+  js:
+    js/command.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/drupal.ajax

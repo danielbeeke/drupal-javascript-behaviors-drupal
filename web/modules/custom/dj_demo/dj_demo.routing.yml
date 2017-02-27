@@ -1,0 +1,7 @@
+dj_demo.command:
+  path: '/ajax-command'
+  defaults:
+    _form: '\Drupal\dj_demo\Form\CommandForm'
+    _title: 'Ajax command'
+  requirements:
+    _permission: 'access content'

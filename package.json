@@ -7,19 +7,24 @@
   },
   "jspm": {
     "name": "dj",
-    "main": "jspm/dj.js",
     "directories": {
       "baseURL": "web",
       "packages": "web/jspm/packages"
     },
     "configFiles": {
-      "jspm": "web/jspm/jspm.config.js",
-      "jspm:dev": "web/jspm.dev.js",
-      "jspm:browser": "web/jspm.browser.js",
-      "jspm:node": "web/jspm.node.js"
+      "jspm": "web/jspm/jspm.config.js"
+    },
+    "dependencies": {
+      "jquery": "npm:jquery@^3.1.1",
+      "underscore": "npm:underscore@^1.8.3"
     },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21"
+    },
+    "overrides": {
+      "npm:jquery@3.1.1": {
+        "format": "amd"
+      }
     }
   }
 }
