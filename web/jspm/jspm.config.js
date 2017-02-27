@@ -4,7 +4,15 @@ SystemJS.config({
     "dj/": ""
   },
   browserConfig: {
-    "baseURL": "/"
+    "baseURL": "/",
+    "paths": {
+      "drupal-javascript/": "./"
+    }
+  },
+  nodeConfig: {
+    "paths": {
+      "drupal-javascript/": ""
+    }
   },
   devConfig: {
     "map": {
@@ -13,8 +21,8 @@ SystemJS.config({
   },
   transpiler: "plugin-babel",
   packages: {
-    "dj": {
-      "main": "jspm/dj.js",
+    "drupal-javascript": {
+      "main": "drupal-javascript.js",
       "format": "esm",
       "meta": {
         "*.js": {

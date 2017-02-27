@@ -1,18 +1,36 @@
 {
   "name": "drupal-javascript",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Clone repo * composer install * npm install * jspm install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbeeke/drupal-javascript-behaviors-drupal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielbeeke/drupal-javascript-behaviors-drupal/issues"
+  },
+  "homepage": "https://github.com/danielbeeke/drupal-javascript-behaviors-drupal#readme",
   "devDependencies": {
     "jspm": "^0.17.0-beta.40"
   },
   "jspm": {
-    "name": "dj",
+    "name": "drupal-javascript",
+    "main": "drupal-javascript.js",
     "directories": {
       "baseURL": "web",
       "packages": "web/jspm/packages"
     },
     "configFiles": {
-      "jspm": "web/jspm/jspm.config.js"
+      "jspm": "web/jspm/jspm.config.js",
+      "jspm:dev": "web/jspm.dev.js",
+      "jspm:browser": "web/jspm.browser.js",
+      "jspm:node": "web/jspm.node.js"
     },
     "dependencies": {
       "jquery": "npm:jquery@^3.1.1",
