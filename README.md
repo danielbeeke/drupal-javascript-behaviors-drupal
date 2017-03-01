@@ -1,4 +1,4 @@
-# Drupal with JSPM, an example of how to use ES^ with Drupal Behaviors
+# Drupal with JSPM, an example of how to use ES6 with Drupal Behaviors
 
 ## How to install
 
